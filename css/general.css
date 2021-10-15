@@ -1,0 +1,371 @@
+/*-----------------------------------------------------------------------------
+  Theme Name  : Jalpur-Millers-Online-Ltd
+  Theme URL   : http://stores.ebay.co.uk/Jalpur-Millers-Online-Ltd/
+  Description : Theme for Jalpur-Millers-Online-Ltd Designed By eSellerSolutions. All Rights Reserved.
+  Version     : CSS v-3.0
+  Tags        : eBay
+  Author      : ESS
+  Author URL  : http://www.esellersolutions.com
+  Created     : Mar 5 2017
+  License     : eSeller Solutions own this theme. Do Not Copy!
+-------------------------------------------------------------------------------*/
+
+
+/*
+-----------------------------------------------------------------------------------
+ESS Custom Font
+-----------------------------------------------------------------------------------*/
+
+
+@import url(http://fonts.googleapis.com/css?family=Cabin:400,500,600,700);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
+
+.exo,
+.cInfo strong,
+.InfoBox .box strong,
+.foot-links h6,
+#topcatz .sf-menu li a,
+.block-title, td#CentralArea div.fpcc, #LeftPanel .v4title,
+#LeftPanel .v4title h2{ font-family:"Oswald",sans-serif !important }
+
+
+
+.essWrap,
+td#CentralArea,
+#LeftPanel {font-family: "Cabin",sans-serif; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+img { border: 0; }
+a,
+#topSearch *,
+#topcatz *,
+.slider *,
+.joinLinks a:before,
+.joinLinks a:after { -webkit-transition: all .5s ease; -moz-transition: all .5s ease; -o-transition: all .5s ease; transition: all .5s ease; }
+
+/* Selection Color */
+::-moz-selection { background: #eee; color: #333; text-shadow: none; }
+::selection { background: #eee; color: #333; text-shadow: none; }
+
+/*Reset*/
+* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+*:before,
+*:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+input[type="checkbox"],
+input[type="radio"] { display: none; }
+.essWrap ul { margin: 0; padding: 0; }
+.essWrap ul li { list-style-type: none; }
+.essWrap a { text-decoration: none; }
+.essWrap p { margin: 0 0 10px; }
+.pageloader { display: none !important; }
+
+.pagewidth{ color:#555; padding:0 0 15px 0;background: rgba(0, 0, 0, 0) url(../images/bg.jpg) repeat scroll left top; }
+
+.essWrap a,
+.ess-colLeft a{ color: #333; }
+
+.essWrap a:hover,
+.ess-colLeft a:hover{ color:#4812a7 }
+
+.pagelayout{background: url(../images/bg-top.png) center 0 repeat-x;  margin: 0 auto; }
+
+/*
+-----------------------------------------------------------------------------------
+ESS eBay Layout fixed width
+-----------------------------------------------------------------------------------*/
+.essWrap { margin-left: auto !important; margin-right: auto !important; }
+.pull-left { float: left; }
+.pull-right { float: right; }
+.clearfix:after,
+.slider *:after,
+.slider *:after,
+.sf-menu:after { clear: both; content: ""; display: table; }
+.essWrap img { max-width: 100%; display: inline-block; height:auto }
+.pr { position: relative; }
+.imgBox img { bottom: 0; height: auto; left: 0; margin: auto; max-height: 90%; max-width: 90%; position: absolute; right: 0; top: 0; width: auto; }
+.essHeadWrap { display: block !important; }
+
+/*
+-----------------------------------------------------------------------------------
+ESS Block Title
+-----------------------------------------------------------------------------------*/
+.block-title,
+td#CentralArea div.fpcc,
+#LeftPanel .v4title {background: url(../images/block-title.jpg) repeat-x;color: #fff; font-size: 22px; padding: 0 12px !important; line-height: 50px; margin: 0; text-transform: uppercase; font-weight: bold; }
+
+.block-title-orange{background:#ef9e24!important ; text-align:left!important}
+.mdl-Box .block-title{ text-align:center}
+
+.ess-colRight .block-title{ background:#4812a7 ;color: #fff; font-size: 12px; padding: 10px 12px !important; line-height: 14px; margin: 0; text-transform: uppercase; font-weight: bold; }
+
+.block-title * { display: block; }
+#LeftPanel .v4title > * { display: block; color: #fff; }
+#LeftPanel .v4title h2 { font-size: 13px; }
+
+.mobilenaslide{ display:none}
+
+/*
+-----------------------------------------------------------------------------------
+ESS Side Promo Banners
+-----------------------------------------------------------------------------------*/
+.promo-widget { text-align: center; }
+.promo-widget * { vertical-align: top; display: inline-block; max-width: 100%; }
+.promo-widget > div + div { margin-top: 15px; }
+.promo-widget a img { display: block; }
+
+/*
+-----------------------------------------------------------------------------------
+ESS Sidebar
+-----------------------------------------------------------------------------------*/
+.ess-colLeft,
+#LeftPanel { width: 220px !important; overflow: hidden; }
+.lBox + .lBox,
+.rBox + .rBox { margin-top: 15px; }
+.ess-colRight .col-inner { width: 130px; }
+.lBox .pad,
+.rBox .pad { padding: 15px; border: 1px solid #e6e6e6; border-top: 0; background-color: #fff; }
+#LeftPanel .v4midBox { border: 1px solid #e6e6e6; border-top: 0; padding: 0; background-color: #fff; }
+#LeftPanel .v4midBox ul { margin: 0; padding: 0; }
+#LeftPanel .v4midBox ul li { font-size: 12px; display: block; color:#6f624f; font-weight: normal; margin: 0; padding:6px 0 6px 18px; padding-left: 18px; text-transform: uppercase; position: relative; border-bottom: 1px solid #e1e1e1; }
+#LeftPanel .v4midBox ul li:last-child { border-bottom: 0; }
+#LeftPanel .v4midBox ul li a { text-decoration: none; color: #6f624f; font-weight: normal; text-transform:uppercase}
+#LeftPanel .v4midBox ul li:hover { background-color:#ffeff4; }
+#LeftPanel .v4midBox ul li a:hover { color:#333 }
+#LeftPanel .v4midBox ul li:before { content: ""; background: url(../images/arw-catz-list.png) no-repeat; width: 12px; height: 10px; display: inline-block; position: absolute; top: 50%; left: 8px; margin-top: -4px; }
+
+/*
+-----------------------------------------------------------------------------------
+ESS Left Feedback
+-----------------------------------------------------------------------------------*/
+#fdback .inr-pad { height: 200px; overflow: hidden; }
+#fdback p { margin: 0; padding: 8px 0; font-size: 12px; }
+#fdback a.mre { text-decoration: none; display: block; width: 100px; padding: 0 10px; height: 26px; line-height: 26px; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAMCAYAAABfnvydAAAASElEQVQYlWNgYGBg+P//f/v///91GbCB////B/6HgFf////XwqWoixhFvVBFzylWNAFJkTpppiBJYjoWr08ISSIHFM7QxBnUAElcnpvbl5wIAAAAAElFTkSuQmCC') 94% center no-repeat #000; color: #fff; font-weight: bold; margin-top: 10px; }
+#fdback a.mre:hover { background-color: #c4a5f8; }
+/*
+-----------------------------------------------------------------------------------
+ESS Table Box
+-----------------------------------------------------------------------------------*/
+.sm-tableBox,
+.tableBox { display: table; width: 100%; border-spacing: 0; }
+.tb-fixed { table-layout: fixed; }
+.sm-table-cell,
+.sm-tableBox > *,
+.table-cell,
+.tableBox > * { display: table-cell; vertical-align: middle; }
+.tableBox.vt > * { vertical-align: top; }
+.text-right { text-align: right; }
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-upper { text-transform: uppercase; }
+.text-normal { font-weight: normal; }
+.inline-block { display: inline-block; }
+.divider { height: 1px; background-color: #ddd; margin: 30px 0 !important; }
+.show-mobile { display: none !important; }
+
+.essWide{ padding-left:15px!important; padding-right:15px!important; background-color: #fff; }
+
+/*
+-----------------------------------------------------------------------------------
+ESS eBay Layout fixed width
+-----------------------------------------------------------------------------------*/
+.essWrap,
+table.tb_v4bc,
+.stBadge,
+#glbfooter,
+#gh,
+.gh-banner-active #gh,
+#sModule,
+.pagecontainer > table:nth-of-type(2) tr:first-child > td > table + table{ max-width: 1000px; }
+
+.mobilenaslide{ display:none!important}
+
+/*
+-----------------------------------------------------------------------------------
+ESS Header
+-----------------------------------------------------------------------------------*/
+#essHeader { margin-bottom: 15px; }
+.header-top { color: #424242; font-size: 11px; padding:0; text-transform:uppercase; }
+
+.welcome-msg{float:left; font-size:15px; color:#000; font-weight:bold; margin-top:10px;}
+.mobile-logo{ display:none!important}
+.cInfo{ float:right; font-size:22px; font-weight:bold; color:#1065b3; background:url(../images/telephone.gif) 0 center no-repeat; padding-left:104px; margin-top:6px; }
+.cInfo .num{ display:inline-block; }
+
+ .top-nav{  display:block; padding:0; }
+.top-nav li { float:left; color:#000;  line-height:48px;}
+.top-nav li a {float:left;color:#fff; font-size:15px; font-weight:bold; text-transform:uppercase; text-decoration:none; padding:0 15px; line-height:48px;}
+.top-nav li:last-child { border-right: 0; }
+.top-nav li:last-child a {}
+.top-nav li a:hover{color:#ffcc00;}
+.main-head { position: relative; padding: 25px 0 15px 0; margin:20px 0 0}
+
+.head-left{ float:left; width:40%; padding:0 }
+.head-right{ float:right; width:50%; padding:0}
+.shoplogo { display: inline-block; }
+.shoplogo img { border: 0; }
+.head-right { text-align: right; }
+.main-head .tableBox > * > * { display: inline-block; vertical-align: middle; }
+.main-head .tableBox > * > * + * { margin-left: 8px; }
+.main-head .db { height: 12px; }
+.db { display: block !important; }
+.joinLinks{ float:right; display:inline-block; color:#000;}
+.joinLinks a{ font-size:12px; color:#343434 !important; float:left; text-decoration:none; text-transform:capitalize; position:relative; padding:0px 6px;}
+.joinLinks a.cls1{padding-right:0px;}
+.joinLinks a img{float:left; padding-right: 5px; padding-top: 0;}
+.joinLinks .txt{float:left; }
+.joinLinks .txt:hover{color:#000;}
+.joinLinks .popup{ width:140px; height:32px!important; margin-left:-57px; background:url(../images/arw-popup.png) center bottom no-repeat; padding-bottom:4px!important; display:none; position:absolute; top:25px; left:0; z-index:1000; }
+.joinLinks span{ display:block;text-align:center; text-transform:uppercase}
+.joinLinks a:nth-child(1):before { content: "Feedback"; text-align:center }
+.joinLinks a:nth-child(2):before { content: "Add to favourites";; text-align:center }
+.joinLinks a:nth-child(3):before { content: "Join Mailing List";; text-align:center }
+.joinLinks a:before { font-style: normal; width: 140px; border: 1px solid #37474f; background-color: #fff; color: #37474f; font-size: 12px; padding: 6px 15px; border-radius: 2px; bottom: 100%; display: block; margin-left: -70px; margin-bottom: 10px; pointer-events: none; position: absolute; }
+.joinLinks a:after { border-left: solid transparent 6px; border-right: solid transparent 6px; border-top: solid #37474f 6px; top: -10px; content: " "; margin-left: -6px; position: absolute; }
+.joinLinks a:before,
+.joinLinks a:after { left: 50%; opacity: 0; -webkit-transform: translateY(10px); -moz-transform: translateY(10px); -ms-transform: translateY(10px); -o-transform: translateY(10px); transform: translateY(10px); }
+.joinLinks a:hover:before,
+.joinLinks a:hover:after { opacity: 1; -webkit-transform: translateY(0px); -moz-transform: translateY(0px); -ms-transform: translateY(0px); -o-transform: translateY(0px); transform: translateY(0px); }
+
+
+.InfoBox{ margin-top:4px; }
+.InfoBox .box{ float:left; color:#fff; width:25%; white-space:nowrap; text-align:center; }
+.InfoBox .box span{ display:inline-block; text-align:left; font-weight:bold; text-transform:uppercase; font-size:22px; color:#222; background:url(../images/arw-infobox.png) 0 3px no-repeat; padding-left:28px; line-height:24px; font-family:"Oswald",sans-serif!important; }
+.InfoBox .box4 span{ border:0; }
+
+#topcatz{ display:none}
+.main-menu { position: relative; z-index: 999;  background:url(../images/menu.png) no-repeat center 0; margin-bottom:15px ; line-height:60px; height:60px}
+.mainslider{ float:right}
+
+
+.about{ margin-bottom:10px; }
+.about h3{ color:#008e3f; font-size:17px; margin:0 0 15px; }
+.about p{ color:#333; font-size:13px; margin-bottom:15px; }
+
+.promo-catz{ margin:0 0 0 0 }
+.promo-catz .box{ float:left; list-style-type:none; margin-right:15px; margin-bottom:15px; }
+.promo-catz .box.cat2, .promo-catz .box.cat3{ margin-right:0; }
+
+
+
+/* 1. Catz Menu
+   ----------------------------- */
+@media only screen and (min-width:801px) {
+  #topcatz > ul > li { vertical-align: middle; float: left;background-color: #0c65ae;  }
+  #topcatz > ul > li:first-child { border-left: 0; background: none; }
+  #topcatz > ul > li:last-child { border-right: 0; }
+  #topcatz .sf-menu label { display: none; }
+  #topcatz .sf-menu li { position: relative; }
+  #topcatz .sf-menu li a { display: block; color: #fff; font-size: 15px; font-weight: bold; padding: 0 15px; padding: 10px 15px; text-transform:uppercase }
+  #topcatz .sf-menu li.home a { background: url(../images/icon-home.png) center center no-repeat; text-indent: -99999px; width: 36px; padding-left: 0; padding-right: 0; margin-left: 0; }
+  #topcatz > ul > li:hover > a,
+  #topcatz > ul > li:focus > a { background-color: #9a9a9a !important; color: #fff; }
+  #topcatz .sf-menu li > a:after { content: ""; vertical-align: middle; display: inline-block; border-style: solid ; border-width: 6px 5px 0 5px; border-right-color: transparent; border-bottom-color: transparent; border-left-color: transparent; margin-left: 5px; margin-top: -3px;  }
+  #topcatz .sf-menu li > a:only-child:after { display: none; }
+  #topcatz .sf-menu ul li > a:after { position: absolute; right: 10px; top: 50%; -ms-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); transform: rotate(-90deg); border-width: 5px 4px 0 4px; margin-left: 4px; margin-top: -2px; }
+
+  /* Sub Menu */
+  #topcatz .sf-menu li:hover > ul,
+  #topcatz .sf-menu li:focus > ul { display: block; }
+  #topcatz .sf-menu ul { display: none; position: absolute; top: 100%; left: 0; width: 260px; box-shadow: 4px 4px 0 0 rgba(35, 35, 35, 0.1); z-index: 99; border: 1px solid #000; border-top-width: 3px; }
+  #topcatz .sf-menu ul ul { top: 0; left: 100%; z-index: 999; }
+  #topcatz .sf-menu ul li a { font-size: 12px; padding-top: 10px; padding-bottom: 10px; border-bottom: 1px solid rgba(0, 0, 0, 0.08); text-align: left; font-weight: normal; color: #333; background-color: #fff; }
+  #topcatz .sf-menu ul li:last-child > a { border: 0; }
+  #topcatz .sf-menu ul li:hover > a { background: #d9e8f5; color: #000; }
+  #topcatz .sf-menu li.mre ul { left: auto; right: 0; }
+  #topcatz .sf-menu li.mre ul ul { left: auto; right: 100%; }
+  #topcatz .sf-menu li.home:hover a{ background-color:#669934!important}
+}
+
+/* 2. Mobile Menu
+ ----------------------------- */
+@media only screen and (max-width:800px) {
+  .main-menu .menu-toggle { display: block; }
+  #topcatz{ display:block; background:#fff;margin:15px 0!important}
+   #topcatz ul { max-height: 0; overflow: hidden; }
+  #topcatz [id^="sub"]:checked ~ ul { max-height: 2500px; }
+  #topcatz { color: #fff; text-align: left; box-shadow: 4px 4px 0 0 rgba(35, 35, 35, 0.1); font-weight: bold; }
+  .menu-toggle { position: relative; vertical-align: middle; cursor: pointer; }
+  .menu-toggle .menutxt span { display: inline-block; vertical-align: middle; font-size: 15px; color: #555; font-weight: normal; text-transform: uppercase; padding-left: 10px; }
+  .menu-toggle .menu-icon { width: 25px; vertical-align: middle; padding: 10px 15px; }
+  .menu-toggle .menu-icon span { display: inline-block; vertical-align: middle; }
+  .menu-toggle .menu-icon i { display: block; background-color: #f1b146; width: 25px; height: 3px; margin: 3px 0; line-height: 0; font-size: 0; text-indent: -9999px; white-space: nowrap; }
+  #topcatz .sf-menu label { cursor: pointer; width: 36px; height: 36px; line-height: 36px; font-size: 22px; position: absolute; top: 0; right: 0; z-index: 99; color: #555; text-align: center; font-family: arial; background: url(../svg/icon-plus.svg) center center no-repeat; -webkit-background-size: contain; background-size: contain; }
+  #topcatz .sf-menu label:hover,
+  #topcatz [id^="sub"]:checked + label { background: url(../svg/icon-minus.svg) center center no-repeat; background-color: rgba(0, 0, 0, 0.07); -webkit-background-size: contain; background-size: contain; }
+  #topcatz .sf-menu { background: #fff; position: relative; border: 1px solid #ddd; border-top: 0; margin-top: -1px; }
+  #topcatz .sf-menu li { background: none; position: relative; }
+  #topcatz .sf-menu a { cursor: pointer; display: block; font-size: 12px; background-color: #f9f9f9; border-top: 1px solid #eee; padding: 10px 15px; color: #555; text-transform: uppercase; }
+  #topcatz .sf-menu a:hover,
+  #topcatz [id^="sub"]:checked ~ a { background-color: #ffeff4; }
+  #topcatz [id^="sub"]:checked ~ a { font-weight: bold; }
+  #topcatz .sf-menu ul li { border: 0; }
+  #topcatz .sf-menu ul a { padding-left: 20px; border-left: 3px solid #ddd; }
+  #topcatz .sf-menu .mre > a:first-of-type { display: none; }
+  #topcatz .sf-menu .mre > ul { max-height: none; }
+  #topcatz .sf-menu .mre > ul > li > a { padding-left: 15px; border-left: 0; }
+  #topcatz .sf-menu .mre ul ul ul { display: none; }
+}
+
+/*
+-----------------------------------------------------------------------------------
+ESS Footer
+-----------------------------------------------------------------------------------*/
+#ess-foot { margin: 0; margin-top:15px;  background: rgba(0, 0, 0, 0) url(../images/menu.png) no-repeat center 0;
+    height: 59px;
+    margin-bottom: 10px;}
+.foot-links { padding: 25px 0; }
+.foot-links .col { position: relative; vertical-align: top; }
+.foot-links .has-divider .col:after { content: ""; width: 1px; height: 100%; position: absolute; top: 0; right: 10px; }
+.foot-links .has-divider .col:last-child:after { display: none; }
+.foot-links .col { padding: 0 8px; }
+.foot-links .col:first-child { padding-left: 0; }
+.foot-links .col:last-child {/* text-align: right; */padding-right: 0; float:right }
+.foot-links .col:last-child img { margin-top: 3px; }
+.foot-links h6 { margin: 0 0 12px; color: #008e3f; font-size: 12px; text-transform: uppercase; font-weight:bold }
+.foot-links ul li { color: #1065b3; font-size: 11px; line-height: 25px; text-transform: uppercase;}
+.foot-links ul li a { color: #1065b3; }
+.foot-links ul li a:hover{ color:#008e3f}
+.foot-links ul li.adrs { background: url(../images/icon-map.png) left 4px no-repeat; padding-left: 30px; margin-bottom: 5px; line-height: normal; }
+.foot-links ul li.num { background: url(../images/icon-phone.png) left 0 no-repeat; padding-left: 30px; margin-bottom: 5px; line-height: 19px; }
+.foot-links ul li.email a { background: url(../images/icon-email.png) left center no-repeat; padding-left: 30px; text-transform: none; }
+
+/*
+-----------------------------------------------------------------------------------
+ESS Copyright
+-----------------------------------------------------------------------------------*/
+.cpyright { font-size: 11px; padding: 13px 0; color:#fff; font-weight:bold }
+.cpyright * { }
+.cpyright p, .cpyright p a { margin: 0;color:#fff!important}
+.cpyright p a:hover {color:#ff9900!important}
+.dsgn span { margin-right: 2px; display: inline-block; }
+.dsgn a { line-height: 24px; background: url(../images/icon-ess24x24.png) left center no-repeat; padding-left: 48px; display: inline-block; color:#fff }
+
+
+
+
+#pst-signup{ margin-top:10px; }
+
+#pst-newsletter input.btn-signup {
+	margin: 0px;
+	display: block;
+	border: none 0px;
+	cursor: pointer;
+	text-decoration: none;
+	width: 105px;
+	transition: all 0.3s ease-out;
+	height: 32px;
+	cursor: pointer;
+	background-color: #F6E39E;
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000000;
+	border-radius: 4px;
+	background-image: url(../images/g-b-price.jpg);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+}
+#pst-newsletter input.btn-signup:hover {
+color: #FE1A67;
+}

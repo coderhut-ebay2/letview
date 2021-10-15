@@ -1,0 +1,114 @@
+@media only screen and (max-width:1024px) {
+	.pagewidth { padding: 15px; background:#fff }
+	.pagecontainer, .pagelayout {width: 1000px;}
+	.joinLinks a:before,
+	.joinLinks a:after { display: none; }
+	.head-right{ width:53%}
+	.foot-links{ padding:35px 10px}
+	.cpyright{ padding:10px 5px}
+	.promo-widget .box{ margin-right:17px; margin-bottom:17px}
+	.welcome-msg{ margin-left:5px}
+	.pagelayout{ box-shadow:none}
+	.welcome-msg, .main-head{ display:none!important}
+
+	
+}
+@media only screen and (max-width:800px) {
+	.pagecontainer, .pagelayout{ width:auto!important}
+	#essHeader{ text-align:center; display:inline-block}
+	.show-mobile { display: block !important; }
+	.hide-mobile { display: none !important; }
+	.large-logo, .slider img{ width:100%; max-width:100%}
+	.welcome-msg, .main-head{ display:none!important}
+	.ess-colRight{ display: none!important; }
+	.header-top{ text-align:center; display:inline-block;}
+	.main-head{ padding:15px;  margin:0}
+	.head-right, .head-left, .contact-info, #topSearch, .joinLinks { float:none; width:auto; text-align:center;  }
+	#topSearch{ padding-top:4px}
+	#topSearch input.v4sbox{background: rgba(0, 0, 0, 0) url(../images/bg-search.gif) repeat-x left top;}
+	#topSearch input#searchbtn{ height:30px; width:30px}
+	.cInfo{ float:none; text-align:center; display:inline-block}
+	.joinLinks span{ }
+	.top-nav{ text-align:center; padding:8px 8px 8px 0; background:#ff1457}
+	.main-menu{ height:auto; line-height:normal!important; background:none!important}
+	.top-nav li{ float:none!important; display:inline-block!important; line-height:normal!important;}
+	.top-nav li a{ float:none!important; display:inline-block!important; font-size:11px!important; line-height:normal!important; background:#ff1457; padding:0 13px}
+
+	.join { font-size: 13px; }
+	.cpyright { margin-top: 15px; padding:5px }
+	.cpyright p { margin: 5px 0; }
+	.InfoBox{ margin:0; }
+	.InfoBox .box span{ font-size:16px; line-height:20px; }
+
+	.InfoBox .box{  float:none; display:inline-block; width:auto!important}
+	.InfoBox .box2{ }
+	.promo-widget .box{ float:none; display:inline-block}
+	.lBox { display:none}
+	.mainslider img, .promo-catz .box img{/* width:100%; */max-width:100%}
+	#ess-foot{ background:#ff1c64; height:auto; margin:10px 0 10px}
+	.promo-catz .box, .promo-catz .box.cat2, .promo-catz .box.cat3{ float:none!important; text-align:center; display:inline-block; width:100%; margin-right:0}
+	.cat1{ float:none; text-align:center; display:inline-block}
+	
+	.fihomeslide{ background:#f1b146;}
+
+	.mobilenaslide{ display:block !important}
+	
+	.pagelayout{background: rgba(0, 0, 0, 0) url(../images/bg.jpg) repeat scroll left top;}
+	
+	.itemTitle{ padding:5px 0; line-height:normal}
+	.scroll.boxed .pad{ background:#ef9e24}
+	.scroll .item a{ background:none}
+	
+}
+@media only screen and (max-width:768px) {
+	
+	main-head {padding-bottom: 15px; }
+	.head-left,
+	.head-right { display: block; }
+	.top-nav li { float: none !important; display: inline-block; vertical-align: middle; }
+	.top-nav li { font-size: 0; display: inline-block; float: none; border: 0 !important; }
+	.top-nav li a { padding: 3px 6px !important;  float: none; }
+	.InfoBox .box + .box { margin-top: 6px; }
+	.tableBox { display: block; text-align: center; table-layout: auto; }
+	.tableBox > * { display: block; text-align: center; }
+	.head-left,
+	.head-right { text-align: center; }
+	.joinLinks { text-align: center; }
+	.head-right { margin-top: 15px; }
+	.main-head .tableBox > * > * { display: block; }
+	.main-head .tableBox > * > * + * { margin-left: 0; margin-top: 15px; }
+	.main-head .db { display: none !important; }
+	
+
+	.joinLinks { text-align: center; }
+	.head-right { margin-top: 15px; }
+	.InfoBox .box{width:100%; margin-bottom:10px;}
+}
+@media only screen and (max-width:640px) {
+	.promo-widget a img { width: 100%; }
+	.join p { margin-bottom: 6px; }
+	.box-rm{ margin-right:20px!important}
+	.large-logo { display: none !important; }
+	.mobile-logo{ display:block!important; text-align:center}
+	.top-nav{ background:none}
+	.top-nav li{ margin-bottom:7px}
+}
+@media only screen and (max-width:639px) {
+	.main-head .inline-block + .inline-block { margin-left: 0; }
+}
+@media only screen and (max-width:480px) {
+		.InfoBox .box span{ font-size:14px; line-height:20px; background:none; text-align:center; padding-left:20px}
+		.header-top{ text-align:center; display:inline-block; background:#fff; width:100%; padding:10px 0}
+		.header-top a{ text-align:center; display:inline-block; background:#fff}
+		.promo-widget .box{ margin-right:0}
+			.box-rm{ margin-right:0!important}
+
+
+}
+@media only screen and (max-width:389px) {
+	.InfoBox .box{ width:100%;}
+	.InfoBox .box, .InfoBox .box span{ height:auto;}
+
+	.shoplogo img { max-width: 260px !important; }
+	.promo-widget a img { display: inline-block; }
+}
