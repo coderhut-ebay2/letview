@@ -17,10 +17,6 @@ ESS Custom Font
 -----------------------------------------------------------------------------------*/
 
 
-@import url(http://fonts.googleapis.com/css?family=Cabin:400,500,600,700);
-@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
-
-
 .exo,
 .cInfo strong,
 .InfoBox .box strong,
@@ -90,15 +86,15 @@ ESS Block Title
 -----------------------------------------------------------------------------------*/
 .block-title,
 td#CentralArea div.fpcc,
-#LeftPanel .v4title {background: url(../images/block-title.jpg) repeat-x;color: #fff; font-size: 22px; padding: 0 12px !important; line-height: 50px; margin: 0; text-transform: uppercase; font-weight: bold; }
+#LeftPanel .v4title {background-color: #F1E402; color: #23241F; font-size: 22px; padding: 0 12px !important; line-height: 50px; margin: 0; text-transform: uppercase; font-weight: bold; }
 
-.block-title-orange{background:#ef9e24!important ; text-align:left!important}
+.block-title-orange{background:#F1E402 !important ; text-align:left!important}
 .mdl-Box .block-title{ text-align:center}
 
 .ess-colRight .block-title{ background:#4812a7 ;color: #fff; font-size: 12px; padding: 10px 12px !important; line-height: 14px; margin: 0; text-transform: uppercase; font-weight: bold; }
 
 .block-title * { display: block; }
-#LeftPanel .v4title > * { display: block; color: #fff; }
+#LeftPanel .v4title > * { display: block; color: #23241F; }
 #LeftPanel .v4title h2 { font-size: 13px; }
 
 .mobilenaslide{ display:none}
@@ -192,10 +188,10 @@ ESS Header
 
  .top-nav{  display:block; padding:0; }
 .top-nav li { float:left; color:#000;  line-height:48px;}
-.top-nav li a {float:left;color:#fff; font-size:15px; font-weight:bold; text-transform:uppercase; text-decoration:none; padding:0 15px; line-height:48px;}
+.top-nav li a {float:left;color:#23241F; font-size:15px; font-weight:bold; text-transform:uppercase; text-decoration:none; padding:0 15px; line-height:48px;}
 .top-nav li:last-child { border-right: 0; }
 .top-nav li:last-child a {}
-.top-nav li a:hover{color:#ffcc00;}
+.top-nav li a:hover{color:#23241F;}
 .main-head { position: relative; padding: 25px 0 15px 0; margin:20px 0 0}
 
 .head-left{ float:left; width:40%; padding:0 }
@@ -334,8 +330,8 @@ ESS Copyright
 -----------------------------------------------------------------------------------*/
 .cpyright { font-size: 11px; padding: 13px 0; color:#fff; font-weight:bold }
 .cpyright * { }
-.cpyright p, .cpyright p a { margin: 0;color:#fff!important}
-.cpyright p a:hover {color:#ff9900!important}
+.cpyright p, .cpyright p a { margin: 0;color:#23241F!important}
+.cpyright p a:hover {color:#23241F!important}
 .dsgn span { margin-right: 2px; display: inline-block; }
 .dsgn a { line-height: 24px; background: url(../images/icon-ess24x24.png) left center no-repeat; padding-left: 48px; display: inline-block; color:#fff }
 

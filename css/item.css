@@ -14,7 +14,7 @@ body { margin: 0; }
 .col-mdl > div { margin-bottom: 15px; }
 .enlarge { padding: 10px 0; text-align: center; border-top: 1px solid #e6e6e6; }
 .enlarge span { display: inline-block; background: url('../svg/icon-zoom.svg') right center no-repeat; -webkit-background-size: contain; background-size: contain; padding-right: 18px; font-size: 11px; text-transform: uppercase; color: #555; }
-.itemTitle { color: #fff; font-weight: bold; font-size: 22px; line-height: 50px;padding:0 !important; text-transform:uppercase; margin:0 }
+.itemTitle { color: #23241F; font-weight: bold; font-size: 18px; line-height: 50px;padding:0 !important; text-transform:uppercase; margin:0 }
 .itemTitle * { margin: 0; padding: 0; color: #424242; font-weight: normal; font-size: 20px; line-height: normal; }
 .ess-gallery .img-box {  border: 1px solid #e6e6e6; width: 55%; margin-left: auto; margin-right: auto; }
 .img-holder { text-align: center; overflow: hidden; background: #fff; display: none; }
@@ -49,12 +49,12 @@ body { margin: 0; }
 .essTabs::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.4); border-radius: 8px; -webkit-border-radius: 8px; }
 .essTabs::-webkit-scrollbar-thumb { -webkit-border-radius: 10px; border-radius: 10px; background: rgba(100, 100, 100, 0.8); -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5); }
 .essTabs { font-size: 0; margin-bottom: 15px; position: relative; height: 300px; overflow: hidden; }
-.essTabs label { float: left; cursor: pointer; height: 48px; line-height: 48px; padding: 0 38px; color: #fff; background-color:#ef9e24; text-align: center; font-size: 18px; font-weight: bold; text-transform: uppercase; margin-right: 1px; font-family:"Oswald",sans-serif }
+.essTabs label { float: left; cursor: pointer; height: 48px; line-height: 48px; padding: 0 38px; color: #fff; background-color:#23241F; text-align: center; font-size: 18px; font-weight: bold; text-transform: uppercase; margin-right: 1px; font-family:"Oswald",sans-serif }
 .essTabs .tabBox:last-child label{ padding-right:49px} 
 .essTabs label:hover,
-.essTabs input:checked + label { color: #fff; background-color:#ff1961; }
+.essTabs input:checked + label { color: #23241F; background-color:#F1E402; }
 .essTabs input:checked ~ label ~ .panel { display: block; }
-.panel { border: 1px solid #e6e6e6;  font-size: 13px; line-height: 20px; display: none; position: absolute; left: 0; top: 48px; padding: 15px; width: 100%; background-color: #fff; border-top:2px solid #ff1961}
+.panel { border: 1px solid #e6e6e6;  font-size: 13px; line-height: 20px; display: none; position: absolute; left: 0; top: 48px; padding: 15px; width: 100%; background-color: #fff; border-top:2px solid #F1E402}
 .scrollBox { height: 200px; overflow: auto; }
 .panel p { padding: 0 0 10px 0; margin: 0; }
 .panel a { color:#ff1961; text-decoration: none; }
