@@ -29,10 +29,10 @@
 	#topSearch input#searchbtn{ height:30px; width:30px}
 	.cInfo{ float:none; text-align:center; display:inline-block}
 	.joinLinks span{ }
-	.top-nav{ text-align:center; padding:8px 8px 8px 0; background:#ff1457}
+	.top-nav{ text-align:center; padding:8px 8px 8px 0; background:#F1E402}
 	.main-menu{ height:auto; line-height:normal!important; background:none!important}
 	.top-nav li{ float:none!important; display:inline-block!important; line-height:normal!important;}
-	.top-nav li a{ float:none!important; display:inline-block!important; font-size:11px!important; line-height:normal!important; background:#ff1457; padding:0 13px}
+	.top-nav li a{ float:none!important; display:inline-block!important; font-size:11px!important; line-height:normal!important; background:#F1E402; padding:0 13px}
 
 	.join { font-size: 13px; }
 	.cpyright { margin-top: 15px; padding:5px }
@@ -45,7 +45,7 @@
 	.promo-widget .box{ float:none; display:inline-block}
 	.lBox { display:none}
 	.mainslider img, .promo-catz .box img{/* width:100%; */max-width:100%}
-	#ess-foot{ background:#ff1c64; height:auto; margin:10px 0 10px}
+	#ess-foot{ background:#F1E402; height:auto; margin:10px 0 10px}
 	.promo-catz .box, .promo-catz .box.cat2, .promo-catz .box.cat3{ float:none!important; text-align:center; display:inline-block; width:100%; margin-right:0}
 	.cat1{ float:none; text-align:center; display:inline-block}
 	
@@ -83,6 +83,19 @@
 	.joinLinks { text-align: center; }
 	.head-right { margin-top: 15px; }
 	.InfoBox .box{width:100%; margin-bottom:10px;}
+	.userNote,
+	.main-menu {
+		display: none;
+	}
+	#topcatz {
+		margin-top: 0 !important;
+	}
+	.header-top {
+		text-align: center;
+	}
+	.header-top img.mobile-logo {
+		display: inline-block !important;
+	}
 }
 @media only screen and (max-width:640px) {
 	.promo-widget a img { width: 100%; }
